@@ -123,15 +123,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-alias cdd='cd /media/lander/Datos'
-
-#ROS2
-source /media/lander/Datos/github/ros2_ws/install/setup.bash
-
-source /opt/ros/lunar/setup.bash
-
-export GYM_GAZEBO_ENV_SCARA3=/usr/share/gazebo-8/worlds/empty.world
-export ROS_PORT_SIM=11311
-export OPENBLAS_NUM_THREADS=1
-
